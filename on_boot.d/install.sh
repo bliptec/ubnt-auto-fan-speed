@@ -26,7 +26,7 @@ case "$(ubnt-device-info firmware || true)" in
     ;;
 esac
 
-GH_REPO="renedis/ubnt-auto-fan-speed"
+GH_REPO="bliptec/ubnt-auto-fan-speed"
 GH_URL_BASE="https://raw.githubusercontent.com/${GH_REPO}/HEAD"
 
 if [ $INSTALL_TYPE -eq 1 ]; then
